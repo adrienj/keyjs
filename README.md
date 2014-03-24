@@ -196,4 +196,5 @@ To prevent a 404 after reloading, put this .htaccess next to your index.html
     RewriteRule ^.*$ - [NC,L]
     RewriteRule ^.*$ /index.html [NC,L]
 
+More code to eat on https://github.com/adrienj/thatmuch (mobile web app built on KeyJs).
 Reminder: be careful, KeyJS is still under developement, use at your own risks. 
