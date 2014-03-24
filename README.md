@@ -114,7 +114,7 @@ KeyJs will fetch tpl/viewName.html if the themplate is not included in index.htm
 
     app.controllers.index = {
         onload: function() {
-            // Without app.views.jquery === trueak
+            // Without app.views.jquery === true
             this.view.sayhello.onclick = function(){/* ... */};
             // With it
             this.view.sayHello.click(function(){/* ... */});
